@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Poppins', sans-serif;
+}
+::placeholder{
+font-size: 10px
+}
+.v{
+  font-size: 10px;
+  color: red;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.f{
+  font-size: 15px;
+  margin-left: 5px;
+ 
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root{
+  --PrimaryColor:hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(181, 85%, 43%);
+  --gradientColor: linear-gradient(90deg, hsl(187,85%,43%) 0%, hsl(199,100%, 33%) 100%);
+  --whiteColor:hsl(0,0%,100%);
+  --blackColor:hsl(201,33%,16%);
+  --textColor:hsl(240,4%, 36%);
+  --whiteColorDeam:hsl(0,0%,93%);
+  --grayText:rgb(190,190,190);
+  --inputColor: rgb(239,239,239);
+  --bodyColor:rgb(240,240,240);
+  --cardBG: rgb(255,255,235);
+  --moomal: linear-gradient(90deg, rgba(63,91,251,1) 0%, rgba(252, 70, 83,1) 100%)
+
+}
+
+.button{
+  border: none;
+  height: 2rem;
+  width: 5rem;
+  background-image: linear-gradient(to bottom right, hsl(9, 85%, 43%), rgb(40, 46, 229) 100%);
+border-radius: 50px;
+  font-size: 18px;
+  color: white;
+ 
+}
+.button:hover{
+  background: skyblue;
+ 
+}
+
+#grad {
+  background: linear-gradient(to bottom right, hsl(187,85%,43%), rgb(40, 46, 229) 100%);
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#grad1 {
+  background: linear-gradient(to bottom right, hsl(9, 85%, 43%), rgb(40, 46, 229) 100%);
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+a{
+  text-decoration: none;
+
+}
+
+li{
+  list-style: none;
+}
+.section{
+  padding: 4rem 0 2rem;
+}
+/* .container{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+} */
+.icon{
+  font: 2rem;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  align-items: center;
+
+}
+.grid{
+  display: grid;
+  align-items: center;
+}
+.btnn{
+padding: .6rem 1.5rem;
+background-color: var(--gradientColor);
+border-radius: 3rem;
+border: none;
+cursor: pointer;
+}
+.btnn p{
+  color:var(--whiteColor);
+  font-weight: 500;
+}
+.btnn:hover{
+  background: var(--SecondaryColor);
+}
+
+
+
+
+img, video{
+  width: 100%;
+  height: auto;
+}
+input{
+  font-size: 100%;
+}
+body{
+  background:var(--bodyColor);
+}
+.shad{
+  box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+}

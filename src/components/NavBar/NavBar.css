@@ -1,0 +1,52 @@
+.nab{
+    /* background: var(--whiteColorDeam); */
+    }
+      .Home{
+        width: 49px;
+      height: 24px;
+      /* margin-top: 10rem; */
+      /* margin-left: 15rem; */
+    
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--textColor);
+      }
+    
+      .Home:hover{
+        color: var(--PrimaryColo);
+    
+      }
+      .signup{
+        margin-left: 12rem;
+      }
+      .logo{
+        margin-top: 12px;
+      }
+      .hm{
+        margin-left: 10rem;
+      }
+      .Rectangle-2 {
+        width: 125px;
+        height: 50px;
+        flex-grow: 0;
+        border-radius: 25px;
+        border: solid 2px #fe7764;
+        width: 100px;
+        height: 40.8px;
+        background-color: transparent;
+        box-shadow: 3px 1px 1px #f9d3cf;
+        
+      }
+      
+    
+      @media screen and (max-width: 990px){
+        .hm {
+          margin-left: 20px;
+        }
+    }
